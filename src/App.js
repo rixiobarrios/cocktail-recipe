@@ -2,20 +2,20 @@ import React, { Component } from 'react';
 import './App.css';
 import Form from './components/Form';
 
-const API_KEY = '1';
+const API_KEY = '1'; //vendor API key
 
 class App extends Component {
     state = {
-        recipes: []
+        recipes: [] //empty array for new array
     };
     getRecipe = async e => {
-        e.preventDefault();
+        e.preventDefault(); //prevent default behaviour
         const recipeName = e.target.elements.recipeName.value;
         const api_call = await fetch(
-            'https://www.thecocktaildb.com/api/json/v1/1/search.php?f=a'
+            'https://www.thecocktaildb.com/api/json/v1/1/random.php'
         );
         const data = await api_call.json();
-        this.setState({ recipes: data.drinks });
+        this.setState({ recipes: data.drinks }); // data pulled
         console.log(data.drinks);
     };
     render() {
@@ -27,7 +27,7 @@ class App extends Component {
                 </header>
                 <Form getRecipe={this.getRecipe} />
                 {this.state.recipes.map(recipe => {
-                    return <p>{recipe.strDrink}</p>;
+                    return <p key={recipe.idDrink}>{recipe.strDrink}</p>;
                 })}
             </div>
         );
