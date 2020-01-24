@@ -12,18 +12,26 @@ class App extends Component {
         e.preventDefault();
         const recipeName = e.target.elements.recipeName.value;
         const api_call = await fetch(
-            'https://www.thecocktaildb.com/api/json/v1/1/lookup.php?i=11007'
+            'https://www.thecocktaildb.com/api/json/v1/1/search.php?f=a'
         );
         const data = await api_call.json();
-        console.log(data);
+        this.setState({ recipes: data.recipes });
+        // console.log(data);
     };
     render() {
+        const { recipes } = this.state;
         return (
             <div className="app">
                 <header className="header">
                     <h1 className="title">Recipe Search</h1>
                 </header>
                 <Form getRecipe={this.getRecipe} />
+                {recipes &&
+                    recipes.length >= 1 &&
+                    recipes.map(recipe => {
+                        console.log(recipe);
+                        return <p>{recipe}</p>;
+                    })}
             </div>
         );
     }
