@@ -15,8 +15,8 @@ class App extends Component {
             'https://www.thecocktaildb.com/api/json/v1/1/search.php?f=a'
         );
         const data = await api_call.json();
-        this.setState({ recipes: data.recipes });
-        // console.log(data);
+        this.setState({ recipes: data.drinks });
+        console.log(data.drinks);
     };
     render() {
         const { recipes } = this.state;
@@ -26,12 +26,9 @@ class App extends Component {
                     <h1 className="title">Recipe Search</h1>
                 </header>
                 <Form getRecipe={this.getRecipe} />
-                {recipes &&
-                    recipes.length >= 1 &&
-                    recipes.map(recipe => {
-                        console.log(recipe);
-                        return <p>{recipe}</p>;
-                    })}
+                {this.state.recipes.map(recipe => {
+                    return <p>{recipe.strDrink}</p>;
+                })}
             </div>
         );
     }
