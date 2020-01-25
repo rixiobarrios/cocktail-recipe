@@ -1,11 +1,14 @@
 import React from 'react';
 
-const Form = (
-    props // search bar
-) => (
+const Form = props => (
     <form onSubmit={props.getRecipe}>
-        <input type="text" name="recipeName" />
-        <button>Search</button>
+        <input
+            className="input"
+            type="text"
+            name="recipeName"
+            onChange={props.onChange}
+        />
+        <button className="button">Search</button>
     </form>
 );
 
