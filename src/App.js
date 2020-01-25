@@ -18,12 +18,10 @@ class App extends Component {
         );
         const data = await api_call.json();
         this.setState({ recipes: data.drinks }); // data pulled
-        console.log(data.drinks);
     };
 
     onChange = e => {
-        this.setState({ searchTerm: e.target.value });
-        console.log(e.target.value);
+        this.setState({ searchTerm: e.target.value }); //dynamic searching
     };
 
     render() {
