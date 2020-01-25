@@ -28,8 +28,8 @@ class App extends Component {
         const { recipes } = this.state;
         return (
             <div className="app">
-                <header className="header">
-                    <h1 className="title">Recipe Search</h1>
+                <header className="app-header">
+                    <h1 className="app-title">Recipe Search</h1>
                 </header>
                 <Form getRecipe={this.getRecipe} onChange={this.onChange} />
                 <Recipes recipes={this.state.recipes} />

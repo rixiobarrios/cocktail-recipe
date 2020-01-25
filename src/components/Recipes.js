@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { Link } from 'react-router-dom';
+
 const Recipes = props => (
     <div className="container">
         <div className="row">
@@ -13,7 +15,7 @@ const Recipes = props => (
                                 alt={recipe.strDrink}
                             />
                             <div className="recipe-text">
-                                <h5 className="drink-titles">
+                                <h5 className="recipes-title">
                                     {recipe.strDrink.length < 20
                                         ? `${recipe.strDrink}`
                                         : `${recipe.strDrink.substring(
@@ -23,7 +25,14 @@ const Recipes = props => (
                                 </h5>{' '}
                             </div>
                             <button className="recipe-buttons">
-                                View Recipe
+                                <Link
+                                    to={{
+                                        pathname: `/recipe/${recipe.idDrink}`,
+                                        state: { recipe: recipe.strDrink }
+                                    }}
+                                >
+                                    View Recipe
+                                </Link>
                             </button>
                         </div>
                     </div>

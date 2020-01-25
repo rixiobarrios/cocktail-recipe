@@ -3,12 +3,12 @@ import React from 'react';
 const Form = props => (
     <form onSubmit={props.getRecipe}>
         <input
-            className="input"
+            className="form-input"
             type="text"
             name="recipeName"
             onChange={props.onChange}
         />
-        <button className="button">Search</button>
+        <button className="form-button">Search</button>
     </form>
 );
 
