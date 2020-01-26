@@ -7,7 +7,7 @@ const Recipes = props => (
         <div className="row">
             {props.recipes.map(recipe => {
                 return (
-                    <div key={recipe.strDrink} className="col-md-4">
+                    <div key={recipe.strDrink} className="recipe-container">
                         <div className="recipes-box">
                             <img
                                 className="recipe-box-img"
@@ -16,11 +16,11 @@ const Recipes = props => (
                             />
                             <div className="recipe-text">
                                 <h5 className="recipes-title">
-                                    {recipe.strDrink.length < 20
+                                    {recipe.strDrink.length < 15
                                         ? `${recipe.strDrink}`
                                         : `${recipe.strDrink.substring(
                                               0,
-                                              25
+                                              20
                                           )}...`}
                                 </h5>{' '}
                             </div>
