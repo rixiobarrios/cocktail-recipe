@@ -3,8 +3,6 @@ import './App.css';
 import Form from './components/Form';
 import Recipes from './components/Recipes';
 
-const API_KEY = '1'; //vendor API key
-
 class App extends Component {
     state = {
         recipes: [],
@@ -31,7 +29,6 @@ class App extends Component {
             <div className="app">
                 <header className="app-header">
                     <img className="app-header-img" src="logo.svg" alt="logo" />
-                    {/* <h1 className="app-title">Elixir: Drink Recipes</h1> */}
                 </header>
                 <Form getRecipe={this.getRecipe} onChange={this.onChange} />
                 <Recipes recipes={this.state.recipes} />
