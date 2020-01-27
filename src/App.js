@@ -10,6 +10,7 @@ class App extends Component {
         recipes: [],
         searchTerm: '' //empty array for new array
     };
+    //<--- freeCodeCamp --->
     getRecipe = async e => {
         e.preventDefault(); //prevent default behaviour
 
@@ -23,13 +24,14 @@ class App extends Component {
     onChange = e => {
         this.setState({ searchTerm: e.target.value }); //dynamic searching
     };
-
+    //<--- stack overflow --->
     render() {
         const { recipes } = this.state;
         return (
             <div className="app">
                 <header className="app-header">
-                    <h1 className="app-title">Recipe Search</h1>
+                    <img className="app-header-img" src="logo.svg" alt="logo" />
+                    {/* <h1 className="app-title">Elixir: Drink Recipes</h1> */}
                 </header>
                 <Form getRecipe={this.getRecipe} onChange={this.onChange} />
                 <Recipes recipes={this.state.recipes} />

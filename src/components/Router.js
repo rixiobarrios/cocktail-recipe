@@ -3,7 +3,7 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 import App from '../App';
 import Recipe from './Recipe';
-
+//<--- medium --->
 const Router = () => (
     <BrowserRouter>
         <Switch>
