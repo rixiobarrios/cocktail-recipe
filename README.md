@@ -4,29 +4,33 @@
 
 ## Definition
 
-**Elixir** (_also known as scissors rock paper and scissors paper stone_) is a hand game usually played between two people, in which each player simultaneously forms one of three shapes with an outstretched hand. These shapes are "rock" (_a closed fist_), "paper" (_a flat hand_), and "scissors" (_a fist with the index finger and middle finger extended, forming a V_). "Scissors" is identical to the two-fingered V sign (_also indicating "victory" or "peace"_) except that it is pointed horizontally instead of being held upright in the air. A simultaneous, zero-sum game, it has only two possible outcomes: a draw, or a win for one player and a loss for the other.(_source: Wikipedia_)
+**Elixir**
 
-**Drink Recipes**
+An elixir is a clear, sweet-flavored liquid used for medical purposes, to be taken orally and intended to cure one's illness.When used as a pharmaceutical preparation, an elixir contains at least one active ingredient designed to be taken orally.(_source: Wikipedia_)
 
-(_also known as scissors rock paper and scissors paper stone_) is a hand game usually played between two people, in which each player simultaneously forms one of three shapes with an outstretched hand. These shapes are "rock" (_a closed fist_), "paper" (_a flat hand_), and "scissors" (_a fist with the index finger and middle finger extended, forming a V_). "Scissors" is identical to the two-fingered V sign (_also indicating "victory" or "peace"_) except that it is pointed horizontally instead of being held upright in the air. A simultaneous, zero-sum game, it has only two possible outcomes: a draw, or a win for one player and a loss for the other.(_source: Wikipedia_)
+**Recipes**
+
+A recipe is a set of instructions that describes how to prepare or make something, especially a dish of prepared food.
+
+The term recipe is also used in medicine or in information technology (_e.g., user acceptance_). A doctor will usually begin a prescription with recipe, Latin for take, usually abbreviated as Rx or the equivalent symbol (℞).(_source: Wikipedia_)
 
 ## Link to the Application
 
-[Elixir: Drink Recipes](https://rixiobarrios.github.io/rock-paper-scissors)
+[Elixir: Drink Recipes](Link for application here)
 
 ## Application Preview
 
-<img width="746" alt="" src="https://user-images.githubusercontent.com/55994508/72128314-1adb8280-3338-11ea-8718-715ff39c4a96.gif">
+<img width="746" alt="" src="">
 
 ## Target Audience
 
-Anyone between the ages of _3 and beyond_.
+Anyone legally old enough to drink legally in their country of residence. Amateur Mixologist and bartenders alike. Drink enthusiast and lovers of relaxation and leisure.
 
 ## Why I chose this Application
 
 I thought it was an interesting and original way yo display skills using the tools given and the assigned time. I was particularly inspired by the **Afiniti** version of **Rock Paper Scissors**. In this version the user can play against an IA player who learns from their every move.
 
-I made this game as part of my first project assignment for **General Assembly** coding bootcamp.
+I made this game as part of my second project assignment for **General Assembly** coding bootcamp.
 
 Here are other reasons to play **Rock paper Scissors** from the WRPSA (_The World Rock Paper Scissors Association_)
 
@@ -41,7 +45,9 @@ Here are other reasons to play **Rock paper Scissors** from the WRPSA (_The Worl
 
 ## History
 
-The earliest form of **Rock Paper Scissors** was created in Japan and is called **Janken**. This is a variation of the Chinese games introduced in the 17th century. **Janken** uses the Rock, Paper and Scissors signs. It is the game that the modern version of **Rock Paper Scissors** derives from directly. Hand-games using gestures to represent the three conflicting elements of rock, paper and scissors have been most common since the modern version of the game was created in the late 19th Century. This was between the Edo and Meiji periods.(source: Wikipedia)
+Purposeful production of alcoholic drinks is common and often reflects cultural and religious peculiarities as much as geographical and sociological conditions.
+
+Discovery of late Stone Age jugs suggest that intentionally fermented beverages existed at least as early as the Neolithic period (_c. 10000 BC_).(_source: Wikipedia_)
 
 ## The Application
 
@@ -64,6 +70,8 @@ This game is _web-based_ and can be played on desktop and laptop computers. _Mob
 
 I have encounter several obstacles while planing and making this game.
 Functions under Javascript and behavior under CSS were the most challenging among the many hurtles that I encounter.
+
+## The API
 
 ## Handmade Wireframes
 
@@ -108,36 +116,32 @@ This code help me simulate the choices another player would make.(\_source: `Gee
 
 -   **Silver**
 
--   [x] None
--   [x] None
--   [ ] None
--   [ ] None
+-   [x] Display Random drinks upon entry
+-   [ ] Search filtered by several categories
+-   [ ] Display total number of recipes
 
 -   **Gold**
 
--   [ ] None
--   [ ] None
--   [ ] None
--   [ ] None
+-   [ ] Browse drinks by first letter
+-   [ ] Mixology news feed added to main page
+-   [ ] Interactive map to locate liquor stores near by
 
 ## User Story
 
-**Elixir: Drink Recipes**
-
-is often used as a fair choosing method between two people, similar to coin flipping, drawing straws, or throwing dice in order to settle a dispute or make an unbiased group decision. Unlike truly random selection methods, however, rock paper scissors can be played with a degree of skill by recognizing and exploiting non-random behavior in opponents.(_source: Wikipedia_)
+As an adult who loves to relax, perhaps have a drink after a stressful day. I want a way to prepare great drinks and enjoy myself while doing it. **Elixir: Drinks Recipe** is a great way to achieve my goal while learning about **Mixology**.
 
 ## Technologies used
 
 -   [HTML](https://www.w3.org/TR/html52/)
 -   [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
 -   [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
--   [React]
--   [React Router]
+-   [React](https://reactjs.org/)
+-   [React Router](https://www.freecodecamp.org/news/beginner-s-guide-to-react-router-53094349669/)
 
 ## Contribution Guidelines
 
 Submit contribution through my repository for approval through this link:
-[Game Repo](https://github.com/rixiobarrios/rock-paper-scissors)
+[Game Repo](https://github.com/rixiobarrios/cocktail-recipe)
 
 ## Bugs
 
@@ -150,18 +154,21 @@ Submit contribution through my repository for approval through this link:
 
 ## Fixes
 
-2. Sage Kearny suggested to elevate the top layer using .intro { z-index: 2;} on CSS
-3.
-4.
-5.
+1. None
+2. None
+3. None
+4. None
+5. None
+
 6. Sage Kearny suggested to move the image from the src folder to the public folder
 
 ## Attributions
 
-Game inspired by **Rock Paper Scissors** by Afiniti [afiniti.com](https://www.afiniti.com/corporate/rock-paper-scissors)
+API source provided by [thecocktaildb.com](https://www.thecocktaildb.com/)
 Wireframes were made using [wireframe.cc](https://wireframe.cc)
 Personal branding logo for this file was created using [freelogodesign.org](https://www.freelogodesign.org)
 Online GIF maker used [hnet.com](https://hnet.com/)
+Image conversion tool user [pngtosvg.com](https://www.pngtosvg.com/)
 Images edited using [pixlr.com](https://pixlr.com/)
 Fonts provided by [dafont.com](https://www.dafont.com)
 Color scheme maker used [coolors.co](http://www.coolors.co)
@@ -180,4 +187,18 @@ Secondly I would also like to thank my family and friends who helped me a lot in
 
 ## Others
 
-`stackoverflow.com, css-tricks.com, github.com, , freecodecamp.org, medium.com, pixlr.com, draw.io, coolors`
+`stackoverflow.com, css-tricks.com, github.com, , freecodecamp.org, medium.com, pixlr.com, draw.io, coolors, w3.org, reactjs.org`
+
+## Disclaimer
+
+-   Don't drink if you're not of legal age in your country of residence.
+
+-   Never drink and drive.
+
+-   Drinking excessively will cause harm to your body and mind.
+
+-   Always drink responsibly.
+
+## Need Help with a Drinking Problem?
+
+Please contact [Alcoholics Anonymous](https://www.aa.org) for information and links to local A.A. offices and Websites where you can find A.A. meetings or talk to an A.A. member.(_source: Alcoholics Anonymous National Website_)

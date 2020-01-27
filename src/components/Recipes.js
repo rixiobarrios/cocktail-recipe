@@ -10,7 +10,7 @@ const Recipes = props => {
         <div className="container">
             <div className="row">
                 {/* conditional statement */}
-                {recipes === null && 'No recipes found baby :('}
+                {recipes === null && 'No recipes found:('}
                 {recipes &&
                     recipes.map(recipe => {
                         return (
@@ -27,11 +27,11 @@ const Recipes = props => {
                                     <div className="recipe-text">
                                         <h5 className="recipes-title">
                                             {/* substring to shorten drink title */}
-                                            {recipe.strDrink.length < 15
+                                            {recipe.strDrink.length < 8
                                                 ? `${recipe.strDrink}`
                                                 : `${recipe.strDrink.substring(
                                                       0,
-                                                      20
+                                                      12
                                                   )}...`}
                                         </h5>{' '}
                                     </div>

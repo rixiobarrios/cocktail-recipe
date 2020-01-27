@@ -11,15 +11,26 @@ const Recipe = props => {
                     alt={recipe.strDrink}
                 />
                 <h3 className="active-recipe-title">{recipe.strDrink}</h3>
-                <p className="active-details">
-                    {('Tags:', recipe.strTags)}{' '}
-                    {('Category:', recipe.strCategory)}{' '}
-                    {('IBA:', recipe.strIBA)}
-                    {('Alcoholic:', recipe.strAlcoholic)}{' '}
-                    {('Glass:', recipe.strGlass)}
-                    {('Instructions:', recipe.strInstructions)}{' '}
-                    {('Ingredients', recipe.strIngredient1)}
-                </p>
+                <ul className="active-details">
+                    <li>
+                        Ingredients: {recipe.strIngredient1.strMeasure1}{' '}
+                        {recipe.strIngredient2.strMeasure2}{' '}
+                        {recipe.strIngredient3.strMeasure3}{' '}
+                        {recipe.strIngredient4.strMeasure4}{' '}
+                        {recipe.strIngredient5.strMeasure5}{' '}
+                        {recipe.strIngredient6.strMeasure6}{' '}
+                        {recipe.strIngredient7.strMeasure7}{' '}
+                        {recipe.strIngredient8.strMeasure8}{' '}
+                        {recipe.strIngredient9.strMeasure9}{' '}
+                        {recipe.strIngredient10.strMeasure10}{' '}
+                        {recipe.strIngredient11.strMeasure11}{' '}
+                        {recipe.strIngredient12.strMeasure12}{' '}
+                        {recipe.strIngredient13.strMeasure13}{' '}
+                        {recipe.strIngredient14.strMeasure14}{' '}
+                        {recipe.strIngredient15.strMeasure15}
+                        <li>Instructions: {recipe.strInstructions} </li>
+                    </li>
+                </ul>
             </div>
         </div>
     );
