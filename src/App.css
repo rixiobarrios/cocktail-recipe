@@ -76,7 +76,7 @@ button:focus {
 .recipes-title {
     color: #e74c3c;
     text-transform: uppercase;
-    font-size: 1.1rem;
+    font-size: 1rem;
     padding: 0.2rem 0 0.2rem 0;
 }
 
@@ -118,15 +118,19 @@ input:-webkit-autofill {
 /*<---- Recipe.js ---->*/
 
 .active-container {
+    margin-bottom: 2rem;
 }
 
 .active-recipe-box {
-    margin: 0 auto;
-    width: 60%;
+    width: 50%;
     box-shadow: -1px 2px 34px -13px rgba(0, 0, 0, 0.75);
+    text-align: left;
+    overflow: hidden;
     border-radius: 1px;
-    margin: 40px auto;
-    padding: 0.2rem 0 0.2rem 0;
+    margin: 90px auto;
+    padding: 0 0 0.8rem 0;
+    padding-bottom: 0.8rem;
+    max-width: 500px;
 }
 
 .active-recipe-img {
@@ -139,7 +143,7 @@ input:-webkit-autofill {
     color: #e74c3c;
     text-transform: uppercase;
     font-size: 1.1rem;
-    padding: 0.2rem 0 0.2rem 0;
+    padding: 0.2rem 0 0.2rem 0.6rem;
 }
 
 .active-details {
@@ -151,10 +155,11 @@ input:-webkit-autofill {
 .active-recipe-button {
     border: solid 2px #e74c3c;
     background: transparent;
-    padding: 0.2rem 0.9rem;
+    padding: 0.4rem 0.6rem;
     margin: 0 0.2rem;
     border-radius: 1px;
-    font-size: 1rem;
+    font-size: 0.9rem;
     text-transform: uppercase;
     font-weight: 500;
+    margin-left: 0.7rem;
 }

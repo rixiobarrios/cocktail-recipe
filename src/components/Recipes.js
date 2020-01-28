@@ -27,11 +27,11 @@ const Recipes = props => {
                                     <div className="recipe-text">
                                         <h5 className="recipes-title">
                                             {/* substring to shorten drink title */}
-                                            {recipe.strDrink.length < 8
+                                            {recipe.strDrink.length < 10
                                                 ? `${recipe.strDrink}`
                                                 : `${recipe.strDrink.substring(
                                                       0,
-                                                      12
+                                                      15
                                                   )}...`}
                                         </h5>{' '}
                                     </div>

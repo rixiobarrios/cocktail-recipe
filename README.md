@@ -4,15 +4,12 @@
 
 ## Definition
 
-**Elixir**
+**Elixir** is a clear, sweet-flavored liquid used for medical purposes, to be taken orally and intended to cure one's illness.When used as a pharmaceutical preparation, an elixir contains at least one active ingredient designed to be taken orally.(_source: Wikipedia_)
 
-An elixir is a clear, sweet-flavored liquid used for medical purposes, to be taken orally and intended to cure one's illness.When used as a pharmaceutical preparation, an elixir contains at least one active ingredient designed to be taken orally.(_source: Wikipedia_)
-
-**Recipes**
-
-A recipe is a set of instructions that describes how to prepare or make something, especially a dish of prepared food.
-
+**Recipes** are sets of instructions that describes how to prepare or make something, especially a dish of prepared food.
 The term recipe is also used in medicine or in information technology (_e.g., user acceptance_). A doctor will usually begin a prescription with recipe, Latin for take, usually abbreviated as Rx or the equivalent symbol (℞).(_source: Wikipedia_)
+
+**Mixology** is another term for a bartender or bar chef. However, mixology is generally accepted as a refined and in-depth study of the art and craft of mixing drinks. Think of it as the study of the chemistry of drinks, and the mixologist as the professional who studies and practices that.(_source: The Spruce Eats_)
 
 ## Link to the Application
 
@@ -32,66 +29,52 @@ I thought it was an interesting and original way yo display skills using the too
 
 I made this game as part of my second project assignment for **General Assembly** coding bootcamp.
 
-Here are other reasons to play **Rock paper Scissors** from the WRPSA (_The World Rock Paper Scissors Association_)
-
--   No Age Requirement to Play
--   No need for training to compete at a professional level
--   No physical barriers to Play
--   No one is naturally better at the sport then anyone else
--   There is no setup required to start the game
--   No cleanup after the game is over
--   Allows for quick decision making
--   There is no age or gender bias
-
 ## History
 
-Purposeful production of alcoholic drinks is common and often reflects cultural and religious peculiarities as much as geographical and sociological conditions.
-
-Discovery of late Stone Age jugs suggest that intentionally fermented beverages existed at least as early as the Neolithic period (_c. 10000 BC_).(_source: Wikipedia_)
+Purposeful production of alcoholic drinks is common and often reflects cultural and religious peculiarities as much as geographical and sociological conditions. Discovery of late Stone Age jugs suggest that intentionally fermented beverages existed at least as early as the Neolithic period (_c. 10000 BC_).(_source: Wikipedia_)
 
 ## The Application
 
-**Elixir: Drink Recipes**
-
-is a zero sum game that is usually played by two people using their hands and no tools. The idea is to make shapes with an outstretched hand where each shape will have a certain degree of power and will lead to an outcome.(_source: The World Rock Paper Scissors Association_)
+**Elixir: Drink Recipes** is a catalog of mixed drinks from all over the world. The API used in this app is populated by all users that are part of it.
 
 ## Instructions
 
-Chose one of three options to play against the computer.
-Once you have chosen, the computer would also make a choice.
-A win, a lose or a draw message would be posted for each party.
-There are three chances to win, lose and draw.
+Upon entry, you are presented with featured drink choices. You can pick one of them or use the search bar to find the drink of your choice based on a few criteria.
+Once you have chosen your drink, you are presented with ingredients and instructions in how to prepare the given drink.
 
 ## Hardware Platform
 
-This game is _web-based_ and can be played on desktop and laptop computers. _Mobile_ option for phones and tablets need optimization.
+This game is _web-based_ application for use on a desktop and laptop computers. _Mobile_ option for phones and tablets needs optimization.
 
-## The Making of the Game
+## The Making of the Application
 
-I have encounter several obstacles while planing and making this game.
-Functions under Javascript and behavior under CSS were the most challenging among the many hurtles that I encounter.
+I have encounter several obstacles while planing and making this app.
+Functions under JSX and behavior under CSS were the most challenging among the many hurtles that I encounter.
 
 ## The API
 
+Is an open, crowd-sourced database of drinks and cocktails from around the world.
+They also offer a free JSON API for anyone wanting to use it.
+
 ## Handmade Wireframes
 
-<img width="746" alt="" src="https://user-images.githubusercontent.com/55994508/72128631-29766980-3339-11ea-9a3a-ae6fef545427.jpg">
+<img width="746" alt="" src="">
 
 ## Digital Wireframe
 
-<img width="746" alt="wire2" src="https://user-images.githubusercontent.com/55994508/72128723-6d696e80-3339-11ea-900d-40c713d79775.png">
+<img width="746" alt="wire2" src="">
 
 ## Recorded Progress Image 1
 
-<img width="746" alt="screen1" src="https://user-images.githubusercontent.com/55994508/72128863-e2d53f00-3339-11ea-8ab5-352091abd402.png">
+<img width="746" alt="screen1" src="">
 
 ## Recorded Progress Image 2
 
-<img width="746" alt="screen2" src="https://user-images.githubusercontent.com/55994508/72128887-f84a6900-3339-11ea-8d1e-b4480c272504.png">
+<img width="746" alt="screen2" src="">
 
 ## Recorded Progress Image 3
 
-<img width="746" alt="screen3" src="https://user-images.githubusercontent.com/55994508/72128948-1d3edc00-333a-11ea-979c-7afd2d258801.png">
+<img width="746" alt="screen3" src="">
 
 ## Code Sample
 
@@ -141,7 +124,7 @@ As an adult who loves to relax, perhaps have a drink after a stressful day. I wa
 ## Contribution Guidelines
 
 Submit contribution through my repository for approval through this link:
-[Game Repo](https://github.com/rixiobarrios/cocktail-recipe)
+[Application Repo](https://github.com/rixiobarrios/cocktail-recipe)
 
 ## Bugs
 

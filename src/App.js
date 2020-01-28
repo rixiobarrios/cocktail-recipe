@@ -18,7 +18,18 @@ class App extends Component {
         const data = await api_call.json();
         this.setState({ recipes: data.drinks }); // data pulled
     };
+    // call back items
+    componentDidMount = () => {
+        const json = localStorage.getItem('recipes');
+        const recipes = JSON.parse(json);
+        this.setState({ recipes });
+    };
 
+    // store items
+    componentDidUpdate = () => {
+        const recipes = JSON.stringify(this.state.recipes);
+        localStorage.setItem('recipes', recipes);
+    };
     onChange = e => {
         this.setState({ searchTerm: e.target.value }); //dynamic searching
     };
