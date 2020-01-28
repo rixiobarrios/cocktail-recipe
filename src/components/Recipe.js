@@ -9,11 +9,20 @@ const Recipe = props => {
     //     return false;
     // }
 
-    let validIngredients = Object.entries(recipe).filter(ingredient => {
-        return ingredient;
-    });
+    // let validIngredients = Object.entries(recipe).filter(ingredient => {
+    //     return ingredient;
+    // });
 
-    console.log(validIngredients);
+    let validIngredients = Object.entries(recipe);
+    function nullScrubber(obj) {
+        for (let ingredient in obj) {
+            if (obj[ingredient] === null || obj[ingredient] === undefined) {
+                delete obj[ingredient];
+            }
+        }
+    }
+    nullScrubber(recipe);
+    console.log(recipe);
     return (
         <div className="active-container">
             <div className="active-recipe-box">
