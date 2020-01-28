@@ -2,18 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 const Recipe = props => {
     const { recipe } = props.location.state;
-    // function activeRecipe(obj) {
-    //     if (obj !== null) {
-    //         return true;
-    //     }
-    //     return false;
-    // }
 
-    // let validIngredients = Object.entries(recipe).filter(ingredient => {
-    //     return ingredient;
-    // });
-
-    let validIngredients = Object.entries(recipe);
     function nullScrubber(obj) {
         for (let ingredient in obj) {
             if (obj[ingredient] === null || obj[ingredient] === undefined) {
@@ -22,7 +11,7 @@ const Recipe = props => {
         }
     }
     nullScrubber(recipe);
-    console.log(recipe);
+    console.log('receipe ===>', recipe);
     return (
         <div className="active-container">
             <div className="active-recipe-box">
@@ -32,12 +21,14 @@ const Recipe = props => {
                     alt={recipe.strDrink}
                 />
                 <h3 className="active-recipe-title">{recipe.strDrink}</h3>
-                {/* <ul className="active-details">
+                <ul className="active-details">
                     <li>
-                        Ingredients: {recipe.strIngredient1.strMeasure1}{' '}
+                        Ingredients:
+                        {recipe.strIngredient1.strMeasure1}{' '}
                         {recipe.strIngredient2.strMeasure2 &&
                             recipe.strIngredient2.strMeasure2}{' '}
-                        {recipe.strIngredient3.strMeasure3 &&
+                        {recipe.strIngredient3 &&
+                            recipe.strIngredient3.strMeasure3 &&
                             recipe.strIngredient3.strMeasure3}{' '}
                         {recipe.strIngredient4.strMeasure4 &&
                             recipe.strIngredient4.strMeasure4}{' '}
@@ -66,7 +57,7 @@ const Recipe = props => {
                         <li>Instructions: {recipe.strInstructions} </li>
                     </li>
                 </ul>
-                ) */}
+                )
                 <button className="active-recipe-button">
                     <Link to="/">Go Home</Link>{' '}
                 </button>

@@ -3,9 +3,34 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Recipes = props => {
-    console.log('props.recipes', props);
+    const normalizeRecipes = recipes => {
+        let normalized = recipes.map(recipe => {
+            let ingredients = [];
+
+            for (let i = 1; i < 16; i++) {
+                if (recipe[`strIngredient${i}`] != null) {
+                    ingredients.push(recipe[`strIngredient${i}`]);
+                }
+            }
+
+            return {
+                id: recipe.idDrink,
+                name: recipe.strDrink,
+                instructions: recipe.strInstructions
+                    ? recipe.strInstructions
+                    : 'No instructions provided',
+                image: recipe.strDrinkThumb,
+                ingredients: ingredients
+            };
+        });
+        return normalized;
+    };
+
     // destructuring
     const { recipes } = props;
+
+    console.log('recipes array ===>', recipes);
+    console.log('loaded ===>', normalizeRecipes(recipes));
     return (
         <div className="container">
             <div className="row">
