@@ -130,7 +130,7 @@ Submit contribution through my repository for approval through this link:
 ## Bugs
 
 1. Responsive built for mobile devices does not render correctly
-2. ~~none~~
+2. ~~Issue with Heroku repo push~~
 3. ~~"Not Found" result message not centered~~
 4. ~~Individual result data for would give error on null values~~
 5. ~~Search results would not stay on page upon returning~~
