@@ -3,15 +3,6 @@ import { Link } from 'react-router-dom';
 const Recipe = props => {
     const { recipe } = props.location.state;
 
-    function nullScrubber(obj) {
-        for (let ingredient in obj) {
-            if (obj[ingredient] === null || obj[ingredient] === undefined) {
-                delete obj[ingredient];
-            }
-        }
-    }
-    nullScrubber(recipe);
-    console.log('receipe ===>', recipe);
     return (
         <div className="active-container">
             <div className="active-recipe-box">
@@ -24,40 +15,10 @@ const Recipe = props => {
                 <ul className="active-details">
                     <li>
                         Ingredients:
-                        {recipe.strIngredient1.strMeasure1}{' '}
-                        {recipe.strIngredient2.strMeasure2 &&
-                            recipe.strIngredient2.strMeasure2}{' '}
-                        {recipe.strIngredient3 &&
-                            recipe.strIngredient3.strMeasure3 &&
-                            recipe.strIngredient3.strMeasure3}{' '}
-                        {recipe.strIngredient4.strMeasure4 &&
-                            recipe.strIngredient4.strMeasure4}{' '}
-                        {recipe.strIngredient5.strMeasure5 &&
-                            recipe.strIngredient5.strMeasure5}{' '}
-                        {recipe.strIngredient6.strMeasure6 &&
-                            recipe.strIngredient6.strMeasure6}{' '}
-                        {recipe.strIngredient7.strMeasure7 &&
-                            recipe.strIngredient7.strMeasure7}{' '}
-                        {recipe.strIngredient8.strMeasure8 &&
-                            recipe.strIngredient8.strMeasure8}{' '}
-                        {recipe.strIngredient9.strMeasure9 &&
-                            recipe.strIngredient7.strMeasure9}{' '}
-                        {recipe.strIngredient10.strMeasure10 &&
-                            recipe.strIngredient10.strMeasure10}{' '}
-                        {recipe.strIngredient11.strMeasure11 &&
-                            recipe.strIngredient7.strMeasure11}{' '}
-                        {recipe.strIngredient12.strMeasure12 &&
-                            recipe.strIngredient12.strMeasure12}{' '}
-                        {recipe.strIngredient13.strMeasure13 &&
-                            recipe.strIngredient13.strMeasure13}{' '}
-                        {recipe.strIngredient14.strMeasure14 &&
-                            recipe.strIngredient14.strMeasure14}{' '}
-                        {recipe.strIngredient15.strMeasure15 &&
-                            recipe.strIngredient15.strMeasure15}
+                        {recipe.strIngredient1} {recipe.strMeasure1}
                         <li>Instructions: {recipe.strInstructions} </li>
                     </li>
                 </ul>
-                )
                 <button className="active-recipe-button">
                     <Link to="/">Go Home</Link>{' '}
                 </button>

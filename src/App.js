@@ -39,7 +39,12 @@ class App extends Component {
         return (
             <div className="app">
                 <header className="app-header">
-                    <img className="app-header-img" src="logo.svg" alt="logo" />
+                    <div className="overlay"></div>
+                    <img
+                        className="app-header-logo"
+                        src="logo.svg"
+                        alt="logo"
+                    />
                 </header>
                 <Form getRecipe={this.getRecipe} onChange={this.onChange} />
                 <Recipes recipes={this.state.recipes} />

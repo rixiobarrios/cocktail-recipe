@@ -25,7 +25,7 @@ Anyone legally old enough to drink legally in their country of residence. Amateu
 
 ## Why I chose this Application
 
-I thought it was an interesting and original way yo display skills using the tools given and the assigned time. I was particularly inspired by the **Afiniti** version of **Rock Paper Scissors**. In this version the user can play against an IA player who learns from their every move.
+Drinking is a social, recreational and relaxing activity. Most humans on this planet have a relationship with alcohol. I decided to make this application as a tribute to the ritual of alcohol, the different types there are and how we mix it into incredible combinations all around the world. One could say alcohol unites us as a specie. You'll find this application educational, fun and exciting. So have a drink on me!
 
 I made this game as part of my second project assignment for **General Assembly** coding bootcamp.
 
@@ -35,7 +35,7 @@ Purposeful production of alcoholic drinks is common and often reflects cultural 
 
 ## The Application
 
-**Elixir: Drink Recipes** is a catalog of mixed drinks from all over the world. The API used in this app is populated by all users that are part of it.
+**Elixir: Drink Recipes** is a catalog of mixed drinks from all over the world. The API used in this app is populated by all users that are part of this open project.
 
 ## Instructions
 
@@ -85,7 +85,7 @@ function computerPlay() {
 }
 ```
 
-This code help me simulate the choices another player would make.(\_source: `GeeksforGeeks.com`)
+This code help me simulate the choices another player would make.(\_source: `help here`)
 
 ## Features
 
@@ -99,7 +99,7 @@ This code help me simulate the choices another player would make.(\_source: `Gee
 
 -   **Silver**
 
--   [x] Display Random drinks upon entry
+-   [x] Display Random/featured drinks upon entry
 -   [ ] Search filtered by several categories
 -   [ ] Display total number of recipes
 
@@ -111,7 +111,7 @@ This code help me simulate the choices another player would make.(\_source: `Gee
 
 ## User Story
 
-As an adult who loves to relax, perhaps have a drink after a stressful day. I want a way to prepare great drinks and enjoy myself while doing it. **Elixir: Drinks Recipe** is a great way to achieve my goal while learning about **Mixology**.
+As an adult who loves to relax, perhaps have a drink after a stressful day. I want a way to prepare great drinks and enjoy myself while doing it. **Elixir: Drinks Recipe** is a great tool to achieve my goal while learning about **Mixology**.
 
 ## Technologies used
 
@@ -129,20 +129,19 @@ Submit contribution through my repository for approval through this link:
 ## Bugs
 
 1. Responsive built for mobile devices does not render correctly
-2. ~~Player's hands showing on top of the intro screen~~
-3. ~~Most items on the page were not aligned to the center~~
-4. ~~Reset Score, Images and Messages on screen~~
-5. ~~Buttons may not change the score at the beginning of the game~~
-6. ~~Issue rendering main logo onto App.js header.
+2. ~~none~~
+3. ~~"Not Found" result message not centered~~
+4. ~~Individual result data would give error on null values~~
+5. ~~Search results would not stay on page upon returning~~
+6. ~~Issue rendering main logo onto App.js header.~~
 
 ## Fixes
 
 1. None
 2. None
-3. None
-4. None
-5. None
-
+3. Sage Kearny suggested I use grid-column: 2;
+4. Created new arrays, mapped and lopped over them and excluded null results
+5. Added componentDidMount and componentDidUpdate to store and callback search result data
 6. Sage Kearny suggested to move the image from the src folder to the public folder
 
 ## Attributions
