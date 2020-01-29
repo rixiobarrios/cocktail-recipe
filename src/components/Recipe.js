@@ -1,7 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-function RecipeInfo(recipe) {
+const Recipe = props => {
+    const { recipe } = props.location.state;
     if (!recipe) {
         return null;
     }
@@ -9,20 +10,16 @@ function RecipeInfo(recipe) {
     function getRecipeIngredients() {
         let i = 1;
         while (recipe['strIngredient' + i]) {
-            const name = recipe['strIngredient' + i];
-            const measurement = recipe['strMeasure' + i];
-            ingredients.push(name + ' : ' + measurement);
+            const name = recipe['strMeasure' + i];
+            const measurement = recipe['strIngredient' + i];
+            ingredients.push(name + ' ' + measurement);
             i++;
         }
 
         return ingredients;
     }
     getRecipeIngredients();
-}
-const Recipe = props => {
-    const { recipe } = props.location.state;
-    let ingredients = recipe.map(ingredient => RecipeInfo(ingredient));
-    console.log(recipe);
+
     return (
         <div className="active-container">
             <div className="active-recipe-box">
@@ -32,11 +29,15 @@ const Recipe = props => {
                     alt={recipe.strDrink}
                 />
                 <h3 className="active-recipe-title">{recipe.strDrink}</h3>
+                <h4>Ingredients:</h4>
                 <ul className="active-details">
-                    <li>
-                        Ingredients:{ingredients}
-                        <li>Instructions: {recipe.strInstructions} </li>
-                    </li>
+                    {ingredients.map(item => (
+                        <li>{item}</li>
+                    ))}
+                </ul>
+                <h4>Instructions:</h4>
+                <ul className="active-details">
+                    <li>{recipe.strInstructions}</li>
                 </ul>
                 <button className="active-recipe-button">
                     <Link to="/">Go Home</Link>{' '}

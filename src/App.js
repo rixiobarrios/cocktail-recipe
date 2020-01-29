@@ -48,6 +48,9 @@ class App extends Component {
                 </header>
                 <Form getRecipe={this.getRecipe} onChange={this.onChange} />
                 <Recipes recipes={this.state.recipes} />
+                <footer className="footer">
+                    © 2020 Designed & Built by Rixio Barrios
+                </footer>
             </div>
         );
     }

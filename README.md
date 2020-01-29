@@ -1,4 +1,4 @@
-<img width="373" src="https://user-images.githubusercontent.com/55994508/72132492-b377ff80-3344-11ea-9baf-6bd3a4b02324.png" alt="logo" style="display: block; margin: 0 auto" />
+    <img width="373" src="https://user-images.githubusercontent.com/55994508/72132492-b377ff80-3344-11ea-9baf-6bd3a4b02324.png" alt="logo" style="display: block; margin: 0 auto" />
 
 # Project #2: Elixir: Drink Recipes Version 1.0
 
@@ -58,7 +58,7 @@ They also offer a free JSON API for anyone wanting to use it.
 
 ## Handmade Wireframes
 
-<img width="746" alt="" src="">
+<img width="746" alt="wire1" src="">
 
 ## Digital Wireframe
 
@@ -120,6 +120,7 @@ As an adult who loves to relax, perhaps have a drink after a stressful day. I wa
 -   [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 -   [React](https://reactjs.org/)
 -   [React Router](https://www.freecodecamp.org/news/beginner-s-guide-to-react-router-53094349669/)
+-   [API](https://www.freecodecamp.org/news/what-is-an-api-in-english-please-b880a3214a82/)
 
 ## Contribution Guidelines
 
@@ -131,7 +132,7 @@ Submit contribution through my repository for approval through this link:
 1. Responsive built for mobile devices does not render correctly
 2. ~~none~~
 3. ~~"Not Found" result message not centered~~
-4. ~~Individual result data would give error on null values~~
+4. ~~Individual result data for would give error on null values~~
 5. ~~Search results would not stay on page upon returning~~
 6. ~~Issue rendering main logo onto App.js header.~~
 
@@ -140,7 +141,7 @@ Submit contribution through my repository for approval through this link:
 1. None
 2. None
 3. Sage Kearny suggested I use grid-column: 2;
-4. Created new arrays, mapped and lopped over them and excluded null results
+4. Mindy Marmol helped me create a function that bypassed "null" results and display ingredients and measurements together
 5. Added componentDidMount and componentDidUpdate to store and callback search result data
 6. Sage Kearny suggested to move the image from the src folder to the public folder
 
@@ -160,7 +161,7 @@ Color scheme maker used [coolors.co](http://www.coolors.co)
 **General Assembly Team:**
 Jared Morgan
 **General Assembly Students:**
-Sage Kearny, Ryan Zimmer
+Sage Kearny, Ryan Zimmer, Mindy Marmol
 
 ## Acknowledgement
 
