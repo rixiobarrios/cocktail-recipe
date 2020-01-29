@@ -1,8 +1,28 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+
+function RecipeInfo(recipe) {
+    if (!recipe) {
+        return null;
+    }
+    const ingredients = [];
+    function getRecipeIngredients() {
+        let i = 1;
+        while (recipe['strIngredient' + i]) {
+            const name = recipe['strIngredient' + i];
+            const measurement = recipe['strMeasure' + i];
+            ingredients.push(name + ' : ' + measurement);
+            i++;
+        }
+
+        return ingredients;
+    }
+    getRecipeIngredients();
+}
 const Recipe = props => {
     const { recipe } = props.location.state;
-
+    let ingredients = recipe.map(ingredient => RecipeInfo(ingredient));
+    console.log(recipe);
     return (
         <div className="active-container">
             <div className="active-recipe-box">
@@ -14,8 +34,7 @@ const Recipe = props => {
                 <h3 className="active-recipe-title">{recipe.strDrink}</h3>
                 <ul className="active-details">
                     <li>
-                        Ingredients:
-                        {recipe.strIngredient1} {recipe.strMeasure1}
+                        Ingredients:{ingredients}
                         <li>Instructions: {recipe.strInstructions} </li>
                     </li>
                 </ul>
