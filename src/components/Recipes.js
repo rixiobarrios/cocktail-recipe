@@ -8,7 +8,7 @@ const Recipes = props => {
             <div className="row">
                 {/* conditional statement */}
                 {recipes === null && (
-                    <h2 className="not-found">No Recipe Found</h2>
+                    <h2 className="not-found">No Recipe Found</h2> // no results response
                 )}
                 {recipes &&
                     recipes.map(recipe => {

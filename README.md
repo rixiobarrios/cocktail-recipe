@@ -13,7 +13,7 @@ The term recipe is also used in medicine or in information technology (_e.g., us
 
 ## Link to the Application
 
-[Elixir: Drink Recipes](https://cocktailapplication.herokuapp.com/)
+[Elixir: Drink Recipes](http://cocktail-recipe-app.herokuapp.com/)
 
 ## Link to Article on Linkedin
 
@@ -118,6 +118,10 @@ This code help me render 15 different ingredients and measurements in the correc
 -   [ ] Mixology news feed added to main page
 -   [ ] Interactive map to locate liquor stores near by
 
+-   **Platinum**
+
+-   [ ] Social media sharing option
+
 ## User Story
 
 As an adult who loves to relax, perhaps have a drink after a stressful day. I want a way to prepare great drinks and enjoy myself while doing it. **Elixir: Drinks Recipe** is a great tool to achieve my goal while learning about **Mixology**.
@@ -195,3 +199,6 @@ I have been relying on my cohort mates to share the burden and happiness of this
 ## Need Help with a Drinking Problem?
 
 Please contact [Alcoholics Anonymous](https://www.aa.org) for information and links to local A.A. offices and Websites where you can find A.A. meetings or talk to an A.A. member.(_source: Alcoholics Anonymous National Website_)
+
+Jared Morgan 1:45 PM
+I’m still seeing a key related error in the console on your deployed app. Just a heads up that you’ll have until Monday to fix any errors and other fixes before we grade.

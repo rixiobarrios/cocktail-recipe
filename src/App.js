@@ -5,8 +5,8 @@ import Recipes from './components/Recipes';
 
 class App extends Component {
     state = {
-        recipes: [],
-        searchTerm: '' //empty array for new array
+        recipes: [], //array to populate
+        searchTerm: ''
     };
     //<--- freeCodeCamp --->
     getRecipe = async e => {

@@ -1,11 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+// code to get rid of null results
 const Recipe = props => {
     const { recipe } = props.location.state;
     if (!recipe) {
         return null;
     }
+    // code to show show results for array of objects
     const ingredients = [];
     function getRecipeIngredients() {
         let i = 1;
