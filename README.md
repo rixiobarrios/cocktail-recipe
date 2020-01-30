@@ -15,6 +15,10 @@ The term recipe is also used in medicine or in information technology (_e.g., us
 
 [Elixir: Drink Recipes](https://cocktailapplication.herokuapp.com/)
 
+## Link to Article on Linkedin
+
+[Elixir: The Second Project](https://www.linkedin.com/posts/activity-6628685336316903424-0H-t)
+
 ## Application Preview
 
 <img width="746" alt="" src="https://user-images.githubusercontent.com/55994508/73427505-880d8280-42fc-11ea-945f-98f74975c8c2.gif">
@@ -127,6 +131,7 @@ As an adult who loves to relax, perhaps have a drink after a stressful day. I wa
 -   [React](https://reactjs.org/)
 -   [React Router](https://www.freecodecamp.org/news/beginner-s-guide-to-react-router-53094349669/)
 -   [API](https://www.freecodecamp.org/news/what-is-an-api-in-english-please-b880a3214a82/)
+-   [Heroku](https://www.heroku.com/)
 
 ## Contribution Guidelines
 
