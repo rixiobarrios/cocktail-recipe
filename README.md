@@ -1,4 +1,4 @@
-    <img width="373" src="https://user-images.githubusercontent.com/55994508/72132492-b377ff80-3344-11ea-9baf-6bd3a4b02324.png" alt="logo" style="display: block; margin: 0 auto" />
+<img width="373" src="https://user-images.githubusercontent.com/55994508/72132492-b377ff80-3344-11ea-9baf-6bd3a4b02324.png" alt="logo" style="display: block; margin: 0 auto" />
 
 # Project #2: Elixir: Drink Recipes Version 1.0
 
@@ -13,7 +13,7 @@ The term recipe is also used in medicine or in information technology (_e.g., us
 
 ## Link to the Application
 
-[Elixir: Drink Recipes](Link for application here)
+[Elixir: Drink Recipes](https://cocktailapplication.herokuapp.com/)
 
 ## Application Preview
 
@@ -39,57 +39,62 @@ Purposeful production of alcoholic drinks is common and often reflects cultural 
 
 ## Instructions
 
-Upon entry, you are presented with featured drink choices. You can pick one of them or use the search bar to find the drink of your choice based on a few criteria.
-Once you have chosen your drink, you are presented with ingredients and instructions in how to prepare the given drink.
+Upon entry, you are presented with featured drink choices. You can pick one of them or use the search bar to find the drink of your choice based on a few criteria. Once you have chosen your drink, you are shown ingredients and instructions in how to prepare the given drink.
 
 ## Hardware Platform
 
-This game is _web-based_ application for use on a desktop and laptop computers. _Mobile_ option for phones and tablets needs optimization.
+This is _web-based_ application for use on a desktop and laptop computers. _Mobile_ option for phones and tablets needs optimization.
 
 ## The Making of the Application
 
 I have encounter several obstacles while planing and making this app.
 Functions under JSX and behavior under CSS were the most challenging among the many hurtles that I encounter.
+For more information please see the "Bugs and Fixes" section.
 
 ## The API
 
 Is an open, crowd-sourced database of drinks and cocktails from around the world.
-They also offer a free JSON API for anyone wanting to use it.
-
-## Handmade Wireframes
-
-<img width="746" alt="wire1" src="">
+They offer a free JSON API with no need for a key for application testing.
 
 ## Digital Wireframe
 
-<img width="746" alt="wire2" src="">
+<img width="746" alt="wire1" src="https://user-images.githubusercontent.com/55994508/73419789-0b6fa980-42e6-11ea-912c-5c88f5bfae61.jpg">
 
-## Recorded Progress Image 1
+## Browser View 1
 
-<img width="746" alt="screen1" src="">
+<img width="746" alt="wire2" src="https://user-images.githubusercontent.com/55994508/73419871-4bcf2780-42e6-11ea-8ce9-8b49e7f9a006.png">
 
-## Recorded Progress Image 2
+## Browser View 2
 
-<img width="746" alt="screen2" src="">
+<img width="746" alt="screen1" src="https://user-images.githubusercontent.com/55994508/73419902-6acdb980-42e6-11ea-8d1b-d301b49dcfe1.png">
 
-## Recorded Progress Image 3
+## Mobile View 1
 
-<img width="746" alt="screen3" src="">
+<img width="373" alt="screen2" src="https://user-images.githubusercontent.com/55994508/73419144-adda5d80-42e3-11ea-99f3-1a1431a7404d.jpg">
+
+## Mobile View 2
+
+<img width="373" alt="screen3" src="https://user-images.githubusercontent.com/55994508/73419533-17a73700-42e5-11ea-90cf-a01dc5b812c0.jpg">
 
 ## Code Sample
 
 ```javascript
-function computerPlay() {
-    computerChoice = choices[Math.floor(Math.random() * choices.length)];
-    calculateResults();
-}
+    const ingredients = [];
+    function getRecipeIngredients() {
+        let i = 1;
+        while (recipe['strIngredient' + i]) {
+            const name = recipe['strMeasure' + i];
+            const measurement = recipe['strIngredient' + i];
+            ingredients.push(name + ' ' + measurement);
+            i++;
+        }
 ```
 
-This code help me simulate the choices another player would make.(\_source: `help here`)
+This code help me render 15 different ingredients and measurements in the correct format.(_source: Mindy Marmol_)
 
 ## Features
 
-**Elixir: Drink Recipes** is currently at the **Silver** Level features functionality.
+**Elixir: Drink Recipes** is currently at the **Bronze** Level features functionality.
 
 -   **Bronze/Minimum Viable Product**
 
@@ -99,7 +104,7 @@ This code help me simulate the choices another player would make.(\_source: `hel
 
 -   **Silver**
 
--   [x] Display Random/featured drinks upon entry
+-   [ ] Display Random/featured drinks upon entry
 -   [ ] Search filtered by several categories
 -   [ ] Display total number of recipes
 
@@ -118,6 +123,7 @@ As an adult who loves to relax, perhaps have a drink after a stressful day. I wa
 -   [HTML](https://www.w3.org/TR/html52/)
 -   [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
 -   [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+-   [JSX](https://reactjs.org/docs/introducing-jsx.html)
 -   [React](https://reactjs.org/)
 -   [React Router](https://www.freecodecamp.org/news/beginner-s-guide-to-react-router-53094349669/)
 -   [API](https://www.freecodecamp.org/news/what-is-an-api-in-english-please-b880a3214a82/)
@@ -129,7 +135,7 @@ Submit contribution through my repository for approval through this link:
 
 ## Bugs
 
-1. Responsive built for mobile devices does not render correctly
+1. ~~Responsive built for mobile devices does not render correctly~~
 2. ~~Issue with Heroku repo push~~
 3. ~~"Not Found" result message not centered~~
 4. ~~Individual result data for would give error on null values~~
@@ -138,8 +144,8 @@ Submit contribution through my repository for approval through this link:
 
 ## Fixes
 
-1. None
-2. None
+1. Used Grid to place results in a dynamic setting
+2. I deleted the files propmted by the error on the terminal
 3. Sage Kearny suggested I use grid-column: 2;
 4. Mindy Marmol helped me create a function that bypassed "null" results and display ingredients and measurements together
 5. Added componentDidMount and componentDidUpdate to store and callback search result data
@@ -151,10 +157,10 @@ API source provided by [thecocktaildb.com](https://www.thecocktaildb.com/)
 Wireframes were made using [wireframe.cc](https://wireframe.cc)
 Personal branding logo for this file was created using [freelogodesign.org](https://www.freelogodesign.org)
 Online GIF maker used [hnet.com](https://hnet.com/)
-Image conversion tool user [pngtosvg.com](https://www.pngtosvg.com/)
+Image converter to .svg used [pngtosvg.com](https://www.pngtosvg.com/)
 Images edited using [pixlr.com](https://pixlr.com/)
-Fonts provided by [dafont.com](https://www.dafont.com)
 Color scheme maker used [coolors.co](http://www.coolors.co)
+Icon image converter to .ico used [icoconvert.com](https://icoconvert.com/)
 
 # Special Thanks
 
@@ -165,12 +171,11 @@ Sage Kearny, Ryan Zimmer, Mindy Marmol
 
 ## Acknowledgement
 
-I would like to give special thanks to our tutors as well as my cohort mates who gave me the golden opportunity to do this wonderful project. I had a good chance to further my knowledge as an aspiring software engineer by doing a lot of research and practicing my newly acquired knowledge. I came to know about so many new things, I am really thankful to everyone who contributed to this experience.
-Secondly I would also like to thank my family and friends who helped me a lot in finalizing this project within the limited time frame. A **big** shout out to my friend **Chris Mendoza** for supporting and believing in me and my potential to succeed(_Gracias hermano_).
+I have been relying on my cohort mates to share the burden and happiness of this amazing learning journey. I have found a new family in them. My family and friends continue to support me and trust that I am capable of finishing the course. Thank you **Chris Mendoza** for helping me navigate through my times being stuck and pushing me to think for myself and come up with my own answers.
 
 ## Others
 
-`stackoverflow.com, css-tricks.com, github.com, , freecodecamp.org, medium.com, pixlr.com, draw.io, coolors, w3.org, reactjs.org`
+`stackoverflow.com, css-tricks.com, github.com, thecocktaildb.com, heroku.com, freecodecamp.org, medium.com, pixlr.com, draw.io, coolors.co, w3.org, w3schools, reactjs.org, iconvert.com, youtube.com, pngtosvg.com, hnet.com, freelogodesign.org, wireframe.cc,`
 
 ## Disclaimer
 

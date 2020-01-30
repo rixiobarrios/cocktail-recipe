@@ -49,7 +49,16 @@ class App extends Component {
                 <Form getRecipe={this.getRecipe} onChange={this.onChange} />
                 <Recipes recipes={this.state.recipes} />
                 <footer className="footer">
-                    © 2020 Designed & Built by Rixio Barrios
+                    <div className="credits">
+                        © 2020 Designed & Built by{' '}
+                        <a href="https://rixiobarrios.github.io">
+                            Rixio Barrios
+                        </a>{' '}
+                        using
+                    </div>
+                    <a href="https://www.thecocktaildb.com/">
+                        <img className="logo" src="api.svg" alt="logo" />
+                    </a>
                 </footer>
             </div>
         );

@@ -106,10 +106,27 @@ button:focus {
 
 .footer {
     box-shadow: -1px 2px 34px -13px rgba(0, 0, 0, 0.75);
-    padding: 0.4rem 0.2rem 0.6rem 0.2rem;
+    padding: 1rem 2rem 1rem 1rem;
     border: solid 2px #e74c3c;
     margin: 20px auto;
-    max-width: 190px;
+    max-width: 400px;
+    display: flex;
+    align-items: center;
+    width: 365px;
+}
+
+.credits {
+    width: 10px;
+    flex: 3;
+    font-size: 11px;
+    padding: 0.1rem 0rem 0.1rem -0.1rem;
+}
+
+.logo {
+    width: 120px;
+    padding: 1px 0px 0px 0px;
+    margin: 0.1rem 0.2rem 0rem -0.3rem;
+    flex: 1;
 }
 
 /*<---- Form.js ---->*/
@@ -127,7 +144,6 @@ button:focus {
 }
 
 .form-button {
-    box-shadow: -1px 2px 34px -13px rgba(0, 0, 0, 0.75);
     border: solid 2px #e74c3c;
     background: transparent;
     padding: 0.2rem 0.9rem;
