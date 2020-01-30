@@ -17,7 +17,7 @@ The term recipe is also used in medicine or in information technology (_e.g., us
 
 ## Application Preview
 
-<img width="746" alt="" src="">
+<img width="746" alt="" src="https://user-images.githubusercontent.com/55994508/73427505-880d8280-42fc-11ea-945f-98f74975c8c2.gif">
 
 ## Target Audience
 
