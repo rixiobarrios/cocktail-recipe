@@ -1,4 +1,4 @@
-<img width="373" src="https://user-images.githubusercontent.com/55994508/72132492-b377ff80-3344-11ea-9baf-6bd3a4b02324.png" alt="logo" style="display: block; margin: 0 auto" />
+<img width="746" src="https://user-images.githubusercontent.com/55994508/73614396-38f97300-45c4-11ea-96f6-1c68497dbe56.png" alt="logo" style="display: block; margin: 0 auto" />
 
 # Project #2: Elixir: Drink Recipes Version 1.0
 
@@ -200,5 +200,8 @@ I have been relying on my cohort mates to share the burden and happiness of this
 
 Please contact [Alcoholics Anonymous](https://www.aa.org) for information and links to local A.A. offices and Websites where you can find A.A. meetings or talk to an A.A. member.(_source: Alcoholics Anonymous National Website_)
 
+##Other notes:
 Jared Morgan 1:45 PM
 I’m still seeing a key related error in the console on your deployed app. Just a heads up that you’ll have until Monday to fix any errors and other fixes before we grade.
+
+Dan Fruth suggested to have a default value in the beginning of the page such as my favorite recipe, before putting a random generated option that would change everytime you reload or arrive to the page.
