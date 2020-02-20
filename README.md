@@ -74,11 +74,11 @@ They offer a free JSON API with no need for a key for application testing.
 
 ## Mobile View 1
 
-<img width="373" alt="screen2" src="https://user-images.githubusercontent.com/55994508/74897899-01c5e880-535e-11ea-8b76-f85ec155a129.png">
+<img width="746" alt="screen2" src="https://user-images.githubusercontent.com/55994508/74897899-01c5e880-535e-11ea-8b76-f85ec155a129.png">
 
 ## Mobile View 2
 
-<img width="373" alt="screen3" src="https://user-images.githubusercontent.com/55994508/74897912-0a1e2380-535e-11ea-8a87-d754a8838752.png">
+<img width="746" alt="screen3" src="https://user-images.githubusercontent.com/55994508/74897912-0a1e2380-535e-11ea-8a87-d754a8838752.png">
 
 ## Code Sample
 
