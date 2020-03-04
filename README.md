@@ -98,7 +98,7 @@ They offer a free JSON API with no need for a key for application testing.
         }
 ```
 
-This code help me render 15 different ingredients and measurements in the correct format.(_source: Mindy Marmol_)
+This code help me render 15 different ingredients and measurements in the correct format.
 
 ## Features
 
@@ -140,7 +140,7 @@ As an adult who loves to relax, perhaps have a drink after a stressful day. I wa
 -   [React](https://reactjs.org/)
 -   [React Router](https://www.freecodecamp.org/news/beginner-s-guide-to-react-router-53094349669/)
 -   [Component Lifecycle Methods](https://www.tutorialspoint.com/reactjs/reactjs_component_life_cycle.htm)
--   [API](https://www.freecodecamp.org/news/what-is-an-api-in-english-please-b880a3214a82/)
+-   [Application Programming Interface(API)](https://www.freecodecamp.org/news/what-is-an-api-in-english-please-b880a3214a82/)
 -   [Heroku](https://www.heroku.com/)
 
 ## Contribution Guidelines
