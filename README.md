@@ -64,6 +64,10 @@ They offer a free JSON API with no need for a key for application testing.
 
 <img width="746" alt="wire1" src="https://user-images.githubusercontent.com/55994508/73419789-0b6fa980-42e6-11ea-912c-5c88f5bfae61.jpg">
 
+## Component Hierarchy
+
+<img width="746" alt="component hierarchy" src="">
+
 ## Browser View 1
 
 <img width="746" alt="wire2" src="https://user-images.githubusercontent.com/55994508/73419871-4bcf2780-42e6-11ea-8ce9-8b49e7f9a006.png">
@@ -130,10 +134,12 @@ As an adult who loves to relax, perhaps have a drink after a stressful day. I wa
 
 -   [HTML](https://www.w3.org/TR/html52/)
 -   [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
+-   [Grid](https://learncssgrid.com/)
 -   [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 -   [JSX](https://reactjs.org/docs/introducing-jsx.html)
 -   [React](https://reactjs.org/)
 -   [React Router](https://www.freecodecamp.org/news/beginner-s-guide-to-react-router-53094349669/)
+-   [Component Lifecycle Methods](https://www.tutorialspoint.com/reactjs/reactjs_component_life_cycle.htm)
 -   [API](https://www.freecodecamp.org/news/what-is-an-api-in-english-please-b880a3214a82/)
 -   [Heroku](https://www.heroku.com/)
 
