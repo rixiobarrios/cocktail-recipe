@@ -2,6 +2,8 @@
 
 # Project #2: Elixir: Drink Recipes Version 1.0
 
+## Installation (here)
+
 ## Definition
 
 **Elixir** is a clear, sweet-flavored liquid used for medical purposes, to be taken orally and intended to cure one's illness.When used as a pharmaceutical preparation, an elixir contains at least one active ingredient designed to be taken orally.(_source: Wikipedia_)
