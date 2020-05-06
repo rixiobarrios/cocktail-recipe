@@ -13,80 +13,104 @@ The term recipe is also used in medicine or in information technology (_e.g., us
 
 **Mixology** is another term for a bartender or bar chef. However, mixology is generally accepted as a refined and in-depth study of the art and craft of mixing drinks. Think of it as the study of the chemistry of drinks, and the mixologist as the professional who studies and practices that.(_source: The Spruce Eats_)
 
-## Link to the Application
+# Table of Contents
+
+-   [Link to the Application](https://github.com/rixiobarrios/cocktail-recipe#Link-to-the-Application)
+-   [Link to the Article on Linkedin](https://github.com/rixiobarrios/cocktail-recipe#Link-to-the-Article-on-Linkedin)
+-   [Browser Preview](https://github.com/rixiobarrios/cocktail-recipe#Browser-preview)
+-   [Target Audience](https://github.com/rixiobarrios/cocktail-recipe#Target-Audience)
+-   [Why I chose this Application?](https://github.com/rixiobarrios/cocktail-recipe#Why-I-chose-this-Application)
+-   [History](https://github.com/rixiobarrios/cocktail-recipe#History)
+-   [The Application](https://github.com/rixiobarrios/cocktail-recipe#The-Application)
+-   [Instructions](https://github.com/rixiobarrios/cocktail-recipe#Instructions)
+-   [Hardware Platform](https://github.com/rixiobarrios/cocktail-recipe#Hardware-Platform)
+-   [The Making of the Application](https://github.com/rixiobarrios/cocktail-recipe#The-Making-of-the-Application)
+-   [The API](https://github.com/rixiobarrios/cocktail-recipe#The-API)
+-   [Wireframes](https://github.com/rixiobarrios/cocktail-recipe#Wireframes)
+-   [Component Hierarchy](https://github.com/rixiobarrios/cocktail-recipe#Component-Hierarchy)
+-   [Previews](https://github.com/rixiobarrios/cocktail-recipe#Previews)
+-   [Code Sample](https://github.com/rixiobarrios/cocktail-recipe#Code-Sample)
+-   [Features](https://github.com/rixiobarrios/cocktail-recipe#Features)
+-   [User Stories](https://github.com/rixiobarrios/cocktail-recipe#User-Story)
+-   [Technologies](https://github.com/rixiobarrios/cocktail-recipe#Technologies)
+-   [Contribution Guidelines](https://github.com/rixiobarrios/cocktail-recipe#Contribution-Guidelines)
+-   [Bugs](https://github.com/rixiobarrios/cocktail-recipe#Bugs)
+-   [Fixes](https://github.com/rixiobarrios/cocktail-recipe#Fixes)
+-   [Attributions](https://github.com/rixiobarrios/cocktail-recipe#Attributions)
+-   [Special Thanks](https://github.com/rixiobarrios/cocktail-recipe#Special-Thanks)
+-   [Acknowledgement](https://github.com/rixiobarrios/cocktail-recipe#Acknowledgement)
+-   [Disclaimer](https://github.com/rixiobarrios/cocktail-recipe#Disclaimer)
+-   [Need Help with a Drinking Problem?](https://github.com/rixiobarrios/cocktail-recipe#Need-Help-with-a-Drinking-Problem?)
+-   [Feedback](https://github.com/rixiobarrios/cocktail-recipe#Feedback)
+
+# Link to the Application
 
 [Elixir: Drink Recipes](http://cocktail-recipe-app.herokuapp.com/)
 
-## Link to Article on Linkedin
+# Link to Article on Linkedin
 
 [Elixir: The Second Project](https://www.linkedin.com/posts/activity-6628685336316903424-0H-t)
 
-## Application Preview
+# Browser Preview
 
 <img width="746" alt="" src="https://user-images.githubusercontent.com/55994508/73427505-880d8280-42fc-11ea-945f-98f74975c8c2.gif">
 
-## Target Audience
+# Target Audience
 
 Anyone legally old enough to drink legally in their country of residence. Amateur Mixologist and bartenders alike. Drink enthusiast and lovers of relaxation and leisure.
 
-## Why I chose this Application
+# Why I chose this Application?
 
 Drinking is a social, recreational and relaxing activity. Most humans on this planet have a relationship with alcohol. I decided to make this application as a tribute to the ritual of alcohol, the different types there are and how we mix it into incredible combinations all around the world. One could say alcohol unites us as a specie. You'll find this application educational, fun and exciting. So have a drink on me!
 
 I made this game as part of my second project assignment for **General Assembly** coding bootcamp.
 
-## History
+# History
 
 Purposeful production of alcoholic drinks is common and often reflects cultural and religious peculiarities as much as geographical and sociological conditions. Discovery of late Stone Age jugs suggest that intentionally fermented beverages existed at least as early as the Neolithic period (_c. 10000 BC_).(_source: Wikipedia_)
 
-## The Application
+# The Application
 
 **Elixir: Drink Recipes** is a catalog of mixed drinks from all over the world. The API used in this app is populated by all users that are part of this open project.
 
-## Instructions
+# Instructions
 
 Upon entry, you are presented with featured drink choices. You can pick one of them or use the search bar to find the drink of your choice based on a few criteria. Once you have chosen your drink, you are shown ingredients and instructions in how to prepare the given drink.
 
-## Hardware Platform
+# Hardware Platform
 
-This is _web-based_ application for use on a desktop and laptop computers. _Mobile_ option for phones and tablets needs optimization.
+This is _web-based_ application for use on a desktop and laptop computers, installation is not required. _Mobile_ option for phones and tablets needs optimization.
 
-## The Making of the Application
+# The Making of the Application
 
 I have encounter several obstacles while planing and making this app.
 Functions under JSX and behavior under CSS were the most challenging among the many hurtles that I encounter.
 For more information please see the "Bugs and Fixes" section.
 
-## The API
+# The API
 
 Is an open, crowd-sourced database of drinks and cocktails from around the world.
 They offer a free JSON API with no need for a key for application testing.
 
-## Digital Wireframe
+# Wireframe
 
 <img width="746" alt="wire1" src="https://user-images.githubusercontent.com/55994508/73419789-0b6fa980-42e6-11ea-912c-5c88f5bfae61.jpg">
 
-## Component Hierarchy
+# Component Hierarchy
 
 <img width="746" alt="component hierarchy" src="">
 
-## Browser View 1
+# Previews
 
 <img width="746" alt="wire2" src="https://user-images.githubusercontent.com/55994508/73419871-4bcf2780-42e6-11ea-8ce9-8b49e7f9a006.png">
 
-## Browser View 2
-
 <img width="746" alt="screen1" src="https://user-images.githubusercontent.com/55994508/73419902-6acdb980-42e6-11ea-8d1b-d301b49dcfe1.png">
-
-## Mobile View 1
 
 <img width="746" alt="screen2" src="https://user-images.githubusercontent.com/55994508/74897899-01c5e880-535e-11ea-8b76-f85ec155a129.png">
 
-## Mobile View 2
-
 <img width="746" alt="screen3" src="https://user-images.githubusercontent.com/55994508/74897912-0a1e2380-535e-11ea-8a87-d754a8838752.png">
 
-## Code Sample
+# Code Sample
 
 ```javascript
     const ingredients = [];
@@ -102,7 +126,7 @@ They offer a free JSON API with no need for a key for application testing.
 
 This code help me render 15 different ingredients and measurements in the correct format.
 
-## Features
+# Features
 
 **Elixir: Drink Recipes** is currently at the **Bronze** Level features functionality.
 
@@ -128,11 +152,11 @@ This code help me render 15 different ingredients and measurements in the correc
 
 -   [ ] Social media sharing option
 
-## User Story
+# User Story
 
 As an adult who loves to relax, perhaps have a drink after a stressful day. I want a way to prepare great drinks and enjoy myself while doing it. **Elixir: Drinks Recipe** is a great tool to achieve my goal while learning about **Mixology**.
 
-## Technologies used
+# Technologies
 
 -   [HTML](https://www.w3.org/TR/html52/)
 -   [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
@@ -145,12 +169,12 @@ As an adult who loves to relax, perhaps have a drink after a stressful day. I wa
 -   [Application Programming Interface(API)](https://www.freecodecamp.org/news/what-is-an-api-in-english-please-b880a3214a82/)
 -   [Heroku](https://www.heroku.com/)
 
-## Contribution Guidelines
+# Contribution Guidelines
 
 Submit contribution through my repository for approval through this link:
 [Application Repo](https://github.com/rixiobarrios/cocktail-recipe)
 
-## Bugs
+# Bugs
 
 1. ~~Responsive built for mobile devices does not render correctly~~
 2. ~~Issue with Heroku repo push~~
@@ -159,7 +183,7 @@ Submit contribution through my repository for approval through this link:
 5. ~~Search results would not stay on page upon returning~~
 6. ~~Issue rendering main logo onto App.js header.~~
 
-## Fixes
+# Fixes
 
 1. Used Grid to place results in a dynamic setting
 2. I deleted the files propmted by the error on the terminal
@@ -168,16 +192,16 @@ Submit contribution through my repository for approval through this link:
 5. Added componentDidMount and componentDidUpdate to store and callback search result data
 6. Sage Kearny suggested to move the image from the src folder to the public folder
 
-## Attributions
+# Attributions
 
-API source provided by [thecocktaildb.com](https://www.thecocktaildb.com/)
-Wireframes were made using [wireframe.cc](https://wireframe.cc)
-Personal branding logo for this file was created using [freelogodesign.org](https://www.freelogodesign.org)
-Online GIF maker used [hnet.com](https://hnet.com/)
-Image converter to .svg used [pngtosvg.com](https://www.pngtosvg.com/)
-Images edited using [pixlr.com](https://pixlr.com/)
-Color scheme maker used [coolors.co](http://www.coolors.co)
-Icon image converter to .ico used [icoconvert.com](https://icoconvert.com/)
+-   API source provided by [thecocktaildb.com](https://www.thecocktaildb.com/)
+-   Wireframes were made using [wireframe.cc](https://wireframe.cc)
+-   Personal branding logo for this file was created using [freelogodesign.org](https://www.freelogodesign.org)
+-   Online GIF maker used [hnet.com](https://hnet.com/)
+-   Image converter to .svg used [pngtosvg.com](https://www.pngtosvg.com/)
+-   Images edited using [pixlr.com](https://pixlr.com/)
+-   Color scheme maker used [coolors.co](http://www.coolors.co)
+-   Icon image converter to .ico used [icoconvert.com](https://icoconvert.com/)
 
 # Special Thanks
 
@@ -186,15 +210,13 @@ Jared Morgan
 **General Assembly Students:**
 Sage Kearny, Ryan Zimmer, Mindy Marmol
 
-## Acknowledgement
+# Acknowledgement
 
 I have been relying on my cohort mates to share the burden and happiness of this amazing learning journey. I have found a new family in them. My family and friends continue to support me and trust that I am capable of finishing the course. Thank you **Chris Mendoza** for helping me navigate through my times being stuck and pushing me to think for myself and come up with my own answers.
 
-## Others
-
 `stackoverflow.com, css-tricks.com, github.com, thecocktaildb.com, heroku.com, freecodecamp.org, medium.com, pixlr.com, draw.io, coolors.co, w3.org, w3schools, reactjs.org, iconvert.com, youtube.com, pngtosvg.com, hnet.com, freelogodesign.org, wireframe.cc,`
 
-## Disclaimer
+# Disclaimer
 
 -   Don't drink if you're not of legal age in your country of residence.
 
@@ -204,11 +226,12 @@ I have been relying on my cohort mates to share the burden and happiness of this
 
 -   Always drink responsibly.
 
-## Need Help with a Drinking Problem?
+# Need Help with a Drinking Problem?
 
 Please contact [Alcoholics Anonymous](https://www.aa.org) for information and links to local A.A. offices and Websites where you can find A.A. meetings or talk to an A.A. member.(_source: Alcoholics Anonymous National Website_)
 
-##Other notes:
+# Feedback:
+
 Jared Morgan 1:45 PM
 I’m still seeing a key related error in the console on your deployed app. Just a heads up that you’ll have until Monday to fix any errors and other fixes before we grade.
 
