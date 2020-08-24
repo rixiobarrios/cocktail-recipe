@@ -1,8 +1,8 @@
-<img width="746" src="https://user-images.githubusercontent.com/55994508/73614396-38f97300-45c4-11ea-96f6-1c68497dbe56.png" alt="logo" style="display: block; margin: 0 auto" />
+<img width="746" src="https://user-images.githubusercontent.com/55994508/81236697-6559cc80-8fc3-11ea-9cfb-70937d35615c.png" alt="logo" style="display: block; margin: 0 auto" />
 
-# Project #2: Elixir: Drink Recipes Version 1.0
+# Project# 2: Elixir: Drink Recipes by Rixio Barrios
 
-## Installation (here)
+-   [Documentation for Project# 2 Assignment by General Assembly](https://www.notlinkedyet.com)
 
 ## Definition
 
@@ -79,7 +79,12 @@ Upon entry, you are presented with featured drink choices. You can pick one of t
 
 # Hardware Platform
 
-This is _web-based_ application for use on a desktop and laptop computers, installation is not required. _Mobile_ option for phones and tablets needs optimization.
+Clone repo, install, cd into folder and run:
+
+```git
+npm install
+npm start
+```
 
 # The Making of the Application
 
@@ -104,9 +109,15 @@ They offer a free JSON API with no need for a key for application testing.
 
 <img width="746" alt="wire2" src="https://user-images.githubusercontent.com/55994508/73419871-4bcf2780-42e6-11ea-8ce9-8b49e7f9a006.png">
 
+#
+
 <img width="746" alt="screen1" src="https://user-images.githubusercontent.com/55994508/73419902-6acdb980-42e6-11ea-8d1b-d301b49dcfe1.png">
 
+#
+
 <img width="746" alt="screen2" src="https://user-images.githubusercontent.com/55994508/74897899-01c5e880-535e-11ea-8b76-f85ec155a129.png">
+
+#
 
 <img width="746" alt="screen3" src="https://user-images.githubusercontent.com/55994508/74897912-0a1e2380-535e-11ea-8a87-d754a8838752.png">
 
