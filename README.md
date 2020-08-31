@@ -47,7 +47,7 @@ The term recipe is also used in medicine or in information technology (_e.g., us
 
 [Elixir: Drink Recipes](http://cocktail-recipe-app.herokuapp.com/)
 
-# Link to Article on Linkedin
+# Link to the Article on Linkedin
 
 [Elixir: The Second Project](https://www.linkedin.com/posts/activity-6628685336316903424-0H-t)
 
