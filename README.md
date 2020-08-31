@@ -2,7 +2,7 @@
 
 # PROJECT 2: GA-SEIR-129
 
--   [Documentation for Project# 2 Assignment by General Assembly](https://www.notlinkedyet.com)
+-   [Documentation for Project# 2 Assignment by General Assembly](https://github.com/rixiobarrios/project-2)
 
 ## Definition
 
