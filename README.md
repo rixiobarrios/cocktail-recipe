@@ -1,6 +1,6 @@
 <img width="746" src="https://user-images.githubusercontent.com/55994508/81236697-6559cc80-8fc3-11ea-9cfb-70937d35615c.png" alt="logo" style="display: block; margin: 0 auto" />
 
-# Project# 2: Elixir: Drink Recipes by Rixio Barrios
+# PROJECT 2: GA-SEIR-129
 
 -   [Documentation for Project# 2 Assignment by General Assembly](https://www.notlinkedyet.com)
 
